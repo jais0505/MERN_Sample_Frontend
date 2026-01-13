@@ -6,7 +6,7 @@ const App = () => {
   const [greeting, setGreeting] = useState("")
   
 
-  const BACKEND_URL = "https://mern-sample-backend.vercel.app/"
+  const BACKEND_URL = "https://mern-sample-backend.vercel.app/api/greeting"
 
   const fetchGreeting = async () => {
     try {
